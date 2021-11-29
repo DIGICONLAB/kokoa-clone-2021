@@ -1,3 +1,3 @@
-#Kokoa Clone 2021 Study
+# Kokoa Clone 2021 Study
 
-Css got so much better~~!
+Learn html & css to build a website
