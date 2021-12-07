@@ -1,72 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
 @import "reset.css";
 @import "variable.css";
-@import "status_bar.css";
+/* components */
+@import "components/status_bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
 
 body{
+    color: #454545;
     font-family: 'Noto Sans KR', sans-serif;
-}
-
-.welcome-header{
-    margin: 80px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 400;
-}
-.welcome-header__title{
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-.welcome-header__text{
-    width: 60%;
-    color: gray;
-    opacity: 0.5;
-    font-size: 15px;
-    line-height: 20px;
     
 }
 
-#login-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-}
-#login-form input{
-    padding: 15px 0px;
-    border: none;
-    border-bottom: solid 1px rgba(0, 0 ,0, 0.1);
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-#login-form input:first-child{
-    margin-bottom: 5px;
-}
-
-#login-form input:not([type="submit"]){
-    border-bottom: solid 1px rgba(0, 0 ,0, 0.1);
-    transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder{
-    color: rgba(0, 0 ,0, 0.3);
-}
-
-#login-form input:focus{
-    border-color:var(--yellow);
-}
-
-#login-form input[type="submit"]{
-    background-color: var(--yellow);
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 15px 0px;
-}
-
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-    font-size: 12px;
-}
