@@ -3,9 +3,29 @@
      text-align: center;
      display: block;
      padding: 15px 0px;
+     margin-bottom: 15px;
+     margin-top: -15px;
 }
 
 #friends-diplay-link i{
     color: rgba(0, 0, 0, 0.2);
     margin: 0px 6px;
+}
+
+.friends-screen{
+    padding: 0px var(--horizontal-space)
+}
+
+.fiends-screen__channel{
+    margin-top: 19px;
+    padding-top: 15px;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.fiends-screen__channel-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }
