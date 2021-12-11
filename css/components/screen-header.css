@@ -9,7 +9,15 @@
     font-size: 28px;
     font-weight: 600;
 }
-
+.screen-header__icons{
+    position: relative;
+}
 .screen-header__icons span{
     margin-left: 20px;
+}
+
+.screen-header__notice{
+    position: absolute;
+    left: 65px;
+    bottom: 21px;
 }
