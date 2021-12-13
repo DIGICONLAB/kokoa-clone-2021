@@ -5,21 +5,28 @@
     position: relative;
     
 }
-.more-screen .icon-row:nth-child(3){
+.more-screen .icon-row:nth-child(4){
     display: flex;
     justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 30px;
 }
-.more-screen .icon-row:nth-child(3) .icon-row__icons{
+.more-screen .icon-row:nth-child(4) .icon-row__icons{
     padding: 0px 25px;
     margin-top: 10px;
     margin-right: 12px;
     
 }
+
+.more-screen .icon-row a{
+    margin: 0;
+    padding: 0;
+   
+}
+
 .more-screen .icon-row__icons__notice{
     position: absolute;
-    bottom: 65px;
-    left: 185px;
+    bottom: -24px;
+    left: 180px;
 }
