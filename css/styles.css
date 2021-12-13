@@ -27,9 +27,6 @@ body{
 .main-screen{
     padding: 0px var(--horizontal-space);
 }
-.scrollbar {
-    overflow-y: auto;
-  }
 
 .status-bar,
 .screen-header{
@@ -37,6 +34,11 @@ body{
     width: 100%;
     top: 0;
     box-sizing: border-box;
+    z-index: 1;
+    background-color: white;
+}
+.status-bar{
+    z-index: 2;
 }
 
 #friends-diplay-link,

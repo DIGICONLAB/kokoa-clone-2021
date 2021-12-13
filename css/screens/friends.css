@@ -41,7 +41,7 @@
 }
 .splash-screen{
     background-color: var(--yellow);
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -51,4 +51,5 @@
     font-size: 50px;
     animation: hideSplash 0.4s ease-in-out forwards;
     animation-delay: 1s;
+    z-index: 3;
 }
