@@ -1,0 +1,38 @@
+.setting-list{
+    margin-top: 10px;
+}
+.setting-list__column li{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.065);
+    position: relative;
+}
+.setting-list__column i{
+    margin-right: 15px;
+}
+
+.setting-list__column li:last-child{
+    border-bottom: var(--main-border);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.setting-list__column li:nth-child(6){
+    display: flex;
+    justify-content: space-between;
+}
+
+.setting-list__lastspan{
+    color: var(--sub-small-title);
+}
+
+.setting-list_notification{
+    position: absolute;
+    top: 22px;
+    left: 130px;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+}

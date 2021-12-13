@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - kokoa Clone</title>
+    <title>More - kokoa Clone</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,50 +23,64 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
-            <span>
-                <a href="find.html">
-                    <i class="fas fa-search fa-lg"></i>
-                </a>
-            </span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span>
-                <a href="settings.html">
-                    <i class="fas fa-cog fa-lg"></i>
-                </a>
-            </span>
-
+                <span>
+                    <a href="settings.html">
+                        <i class="fas fa-cog fa-lg"></i>
+                    </a>
+                </span>
+                <span class="screen-header__notice smallBadge"></span>
         </div>
     </header>
-    <main class="main-screen">
-        <a href="chat-screen.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img class="user-component__avatar user-component__avatar" src="logo.png">
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">KaKaoTalk</h4>
-                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
-            </div>
-        </a>
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar" src="유재석.jpeg">
+                <img class="user-component__avatar user-component__avatar__xl" src="logo.png">
                 <div class="user-component__text">
-                    <h4 class="user-component__title">유재석 베프</h4>
-                    <h6 class="user-component__subtitle">우리 우정 영원히 평생가자~~~으!</h6>
+                    <h4 class="user-component__title">MOSE</h4>
+                    <h6 class="user-component__subtitle">+82 010-1234-5678</h6>
+                </div>
+                <div class="user-component__alert">
+                    <span><i class="fas fa-exclamation-circle"></i></span>
                 </div>
             </div>
             <div class="user-component__column">
-                <span class="user-component__time">18:32</span>
-                <div class="badge">50</div>
+                <span class="user-component__service">
+                    <i class="fas fa-envelope-open-text"></i>
+                </span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icons">
+                <i class="far fa-calendar-check"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icons">
+                <i class="fas fa-archive"></i>
+                <span>Talk Drive</span>
+                <span class="icon-row__icons__notice smallBadge"></span>
+            </div>
+            <div class="icon-row__icons">
+                <i class="far fa-grin"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icons">
+                <i class="fas fa-brush"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icons">
+                <i class="fas fa-user-circle"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icons">
+                <i class="fas fa-comments"></i>
+                <span>Openchat</span>
             </div>
         </div>
     </main>
@@ -83,7 +97,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chat.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-2x"></i></i>
+                    <i class="far fa-comment fa-2x"></i></i>
                 </a>
             </li>
             <li class="nav__btn">
